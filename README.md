@@ -5,26 +5,24 @@
 </pre>
 <h3>Steps:</h3>
 <ol>
-  <li>Creating a Laravel project | Создание проекта Laravle</li>
-  <li>Connecting the DiDOM library | Подключение библиотеки DiDOM</li>
-  <li>Connecting the Guzzle library | Подключение библиотеки Guzzle/li>
-  <li>Specify URL for parsing | Указываем URL читаемой страницы</li>
-  <li>Create an object of the Client class to send http requests | Создаем объект класса Клиент для отправки http запросов</li>
-  <li>Send GET request to URL | Отправляем GET запрос к URL</li>
-  <li>Save the received response to the $html variable | Сохраняем полученный ответ в переменную $html
-  <ul>
-    <li>$response->getBody() возвращает тело ответа, то есть HTML-код страницы.</li>
-    <li>Метод getContents() преобразует тело ответа в строку.</li>
+  <li>Creating a Laravel project</li>
+  <li>Connecting the DiDOM library</li>
+  <li>Connecting the Guzzle library/li>
+  <li>Specify URL for parsing</li>
+  <li>Create an object of the Client class to send http requests</li>
+  <li>Send GET request to URL</li>
+  <li>Save the received response to the $html variable
+    <ul>
+    <li>>$response->getBody() returns the body of the response - the HTML code of the page.
+    </li>
+    <li>The getContents() method converts the response body to a string.</li>
   </ul>
   </li>
   
-  <li>Parcing | Парсинг
+  <li>Parcing
   <ul>
-    <li>Создается объект Document из DiDom.</li>
-    <li>Метод loadHtml($html) загружает HTML-контент в объект Document для дальнейшей обработки.</li>
+    <li>The Document object from DiDom is created.</li>
+    <li>The loadHtml($html) method loads HTML content into a Document object for further processing.</li>
   </ul>
   </li>
-  <li></li>
-  <li></li>
-  <li></li>
 </ol>
